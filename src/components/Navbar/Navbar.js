@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 
-import SideDrawer from "../SideDrawer/SideDrawer";
-import Toolbar from "../Toolbar/Toolbar";
+import SideDrawer from "./SideDrawer/SideDrawer";
+import Toolbar from "./Toolbar/Toolbar";
 import "./Navbar.css";
-// import Button from "./components/Button/Button";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import Backdrop from "../Backdrop/Backdrop";
-library.add(faBars);
+
+// import Button from "./components/Button/Button";
 
 class Navbar extends Component {
   state = {

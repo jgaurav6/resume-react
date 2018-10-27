@@ -5,5 +5,10 @@
 .bgDiv {
   width: 100%;
   display: grid;
+  /* position: absolute; */
   grid-template-columns: 50% 50%;
+}
+
+.Navbar {
+  position: absolute;
 }
